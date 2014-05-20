@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyNetduino.Web", "FunnyNetduino.Web\FunnyNetduino.Web.csproj", "{860BB4ED-8B6A-4087-925C-9A98C5C1CE2A}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "FunnyNetduino.Cloud", "FunnyNetduino.Cloud\FunnyNetduino.Cloud.ccproj", "{12177593-CBC5-4785-A256-594223F99534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyNetduino.Mosquitto", "FunnyNetduino.Mosquitto\FunnyNetduino.Mosquitto.csproj", "{BC5F510E-6443-4605-AD98-35E165966E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyNetduino.Netduino", "FunnyNetduino.Netduino\FunnyNetduino.Netduino.csproj", "{6F72F37A-5DEE-4A12-84C9-14EB6CC467EC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rodrigowirth.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FunnyNetduino.Web\\FunnyNetduino.Web.csproj
+		SccProjectName1 = FunnyNetduino.Web
+		SccLocalPath1 = FunnyNetduino.Web
+		SccProjectUniqueName2 = FunnyNetduino.Cloud\\FunnyNetduino.Cloud.ccproj
+		SccProjectName2 = FunnyNetduino.Cloud
+		SccLocalPath2 = FunnyNetduino.Cloud
+		SccProjectUniqueName3 = FunnyNetduino.Mosquitto\\FunnyNetduino.Mosquitto.csproj
+		SccProjectName3 = FunnyNetduino.Mosquitto
+		SccLocalPath3 = FunnyNetduino.Mosquitto
+		SccProjectUniqueName4 = FunnyNetduino.Netduino\\FunnyNetduino.Netduino.csproj
+		SccProjectName4 = FunnyNetduino.Netduino
+		SccLocalPath4 = FunnyNetduino.Netduino
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{860BB4ED-8B6A-4087-925C-9A98C5C1CE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860BB4ED-8B6A-4087-925C-9A98C5C1CE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860BB4ED-8B6A-4087-925C-9A98C5C1CE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860BB4ED-8B6A-4087-925C-9A98C5C1CE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12177593-CBC5-4785-A256-594223F99534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12177593-CBC5-4785-A256-594223F99534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12177593-CBC5-4785-A256-594223F99534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12177593-CBC5-4785-A256-594223F99534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5F510E-6443-4605-AD98-35E165966E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5F510E-6443-4605-AD98-35E165966E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5F510E-6443-4605-AD98-35E165966E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5F510E-6443-4605-AD98-35E165966E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F72F37A-5DEE-4A12-84C9-14EB6CC467EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F72F37A-5DEE-4A12-84C9-14EB6CC467EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F72F37A-5DEE-4A12-84C9-14EB6CC467EC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6F72F37A-5DEE-4A12-84C9-14EB6CC467EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F72F37A-5DEE-4A12-84C9-14EB6CC467EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F72F37A-5DEE-4A12-84C9-14EB6CC467EC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

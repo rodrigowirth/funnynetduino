@@ -1,0 +1,59 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />    
+    <link href="~/bootstrap/css/bootstrap-overrides.css" rel="stylesheet" />
+    <link href="~/Styles/metro-buttons.css" rel="stylesheet" />
+    
+    <script src="~/Scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript">
+        function sendCommand(commandId) {
+            $.ajax({
+                type: "GET",
+                url: ("Home/SendCommand"),
+                data: { 'commandId': commandId },
+                async: true,
+                success: function (result) {
+
+                },
+                error: function (error) {
+
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-8 col-xs-12">
+                <a href="javascript:sendCommand(0)" class='box lime'>
+                    <i class="icon-lightbulb"></i>
+                    <h2>On/Off</h2>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                <a href="javascript:sendCommand(1)" class='box orange'>
+                    <i class="icon-lightbulb"></i>
+                    <h2>On</h2>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                <a href="javascript:sendCommand(2)" class='box orange'>
+                    <i class="icon-lightbulb"></i>
+                    <h2>Off</h2>
+                </a>
+            </div>            
+        </div>
+    </div>
+</body>
+</html>
